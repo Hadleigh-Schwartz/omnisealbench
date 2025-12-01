@@ -10,10 +10,10 @@ name: "timbre"
 # required
 generator:
   builder_func: omnisealbench.models.audio.builders.build_timbre_generator
-  checkpoint_pth: '' # model specific
+  checkpoint_pth: '/Users/hadleigh/compressed_none-conv2_ep_20_2023-02-14_02_24_57.pth.tar' # model specific
 detector:
   builder_func: omnisealbench.models.audio.builders.build_timbre_detector
-  checkpoint_pth: '' # model specific
+  checkpoint_pth: '/Users/hadleigh/compressed_none-conv2_ep_20_2023-02-14_02_24_57.pth.tar' # model specific
 
 # nbits: Number of bits in the watermark message.
 nbits: 30 # required
