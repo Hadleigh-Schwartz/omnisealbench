@@ -95,7 +95,6 @@ class TimbreWatermarkDetector(AudioWatermarkDetector):
         embedding_dim = model_config["dim"]["embedding"]
         nlayers_decoder = model_config["layer"]["nlayers_decoder"]
         attention_heads_decoder = model_config["layer"]["attention_heads_decoder"]
-
         detector = Decoder(
             process_config,
             model_config,
@@ -105,6 +104,7 @@ class TimbreWatermarkDetector(AudioWatermarkDetector):
             nlayers_decoder=nlayers_decoder,
             attention_heads=attention_heads_decoder,
             hifigan_dir=f"{timbre_pth}/hifigan",
+            device = device
         ).to(device)
 
         checkpoint = torch.load(checkpoint_pth)

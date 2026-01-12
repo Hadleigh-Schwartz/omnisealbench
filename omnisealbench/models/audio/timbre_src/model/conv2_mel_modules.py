@@ -274,6 +274,7 @@ class Decoder(nn.Module):
         transformer_drop=0.1,
         attention_heads=8,
         hifigan_dir="./hifigan",
+        device = "cuda"
     ):
         super(Decoder, self).__init__()
         self.robust = model_config["robust"]
@@ -285,7 +286,6 @@ class Decoder(nn.Module):
             hop_length=process_config["mel"]["hop_length"],
             win_length=process_config["mel"]["win_length"],
         )
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.vocoder = get_vocoder(device, hifigan_dir=hifigan_dir)
         self.vocoder_step = model_config["structure"]["vocoder_step"]
 
