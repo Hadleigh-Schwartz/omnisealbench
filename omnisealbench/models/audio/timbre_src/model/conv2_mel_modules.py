@@ -104,7 +104,7 @@ def save_waveform(a_tensor, flag="original"):
 
     root = "draw_figure"
     y = a_tensor.cpu().numpy()
-    soundfile.write(os.path.join(root, flag + "_waveform.wav"), y, samplerate=22050)
+    soundfile.write(os.path.join(root, flag + "_waveform.wav"), y, sample_rate=22050)
     D = librosa.stft(y)
     spectrogram = np.abs(D)
     img = librosa.display.specshow(

@@ -4,3 +4,1124 @@ nohup: ignoring input
 [0;93m2026-01-11 20:55:44.524655447 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
 /home/hadleigh/miniconda3/envs/stegaphone/lib/python3.10/site-packages/torch/nn/utils/weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
+Removing weight norm...
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_1 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_10 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_11 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_12 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_13 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_14 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_15 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_16 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_17 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_18 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_19 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_2 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_20 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_21 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_22 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_23 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_24 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_25 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_26 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_27 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_28 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_29 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_3 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_30 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_31 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_32 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_33 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_34 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_35 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_4 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_5 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_6 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_7 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_8 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_9 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//timbre/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_1 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_10 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_11 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_12 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_13 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_14 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_15 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_16 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_17 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_18 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_19 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_2 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_20 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_21 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_22 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_23 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_24 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_25 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_26 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_27 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_28 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_29 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_3 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_30 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_31 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_32 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_33 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_34 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_35 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_4 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_5 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_6 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_7 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_8 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_9 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p100//audioseal/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_1 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_10 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_11 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_12 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_13 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_14 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_15 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_16 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_17 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_18 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_19 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_2 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_20 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_21 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_22 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_23 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_24 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_25 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_26 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_27 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_28 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_29 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_3 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_30 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_31 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_32 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_33 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_34 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_35 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_4 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_5 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_6 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_7 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_8 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_9 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//timbre/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_1 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_10 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_11 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_12 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_13 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_14 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_15 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_16 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_17 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_18 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_19 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_2 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_20 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_21 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_22 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_23 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_24 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_25 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_26 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_27 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_28 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_29 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_3 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_30 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_31 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_32 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_33 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_34 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_35 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_4 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_5 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_6 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_7 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_8 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p101/watermark_config_pream_16bps/sample_9 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p101//audioseal/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_1 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_10 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_11 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_12 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_13 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_14 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_15 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_16 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_17 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_18 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_19 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_2 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_20 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_21 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_22 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_23 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_24 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_25 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_26 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_27 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_28 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_29 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_3 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_30 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_31 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_32 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_33 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_34 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_35 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_4 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_5 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_6 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_7 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_8 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_9 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//timbre/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_1 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_10 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_11 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_12 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_13 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_14 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_15 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_16 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_17 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_18 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_19 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_2 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_20 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_21 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_22 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_23 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_24 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_25 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_26 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_27 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_28 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_29 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_3 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_30 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_31 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_32 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_33 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_34 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_35 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_4 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_5 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_6 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_7 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_8 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p102/watermark_config_pream_16bps/sample_9 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p102//audioseal/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_1 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_10 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_11 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_12 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_13 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_14 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_15 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_16 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_17 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_18 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_19 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_2 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_20 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_21 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_22 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_23 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_24 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_25 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_26 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_27 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_28 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_29 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_3 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_30 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_31 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_32 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_33 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_34 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_35 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_4 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_5 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_6 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_7 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_8 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_9 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//timbre/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_1 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_10 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_11 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_12 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_13 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_14 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_15 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_16 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_17 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_18 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_19 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_2 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_20 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_21 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_22 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_23 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_24 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_25 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_26 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_27 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_28 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_29 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_3 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_30 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_31 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_32 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_33 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_34 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_35 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_4 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_5 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_6 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_7 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_8 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p103/watermark_config_pream_16bps/sample_9 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p103//audioseal/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_1 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_10 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_11 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_12 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_13 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_14 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_15 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_16 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_17 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_18 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_19 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_2 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_20 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_21 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_22 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_23 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_24 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_25 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_26 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_27 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_28 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_29 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_3 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_30 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_31 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_32 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_33 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_34 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_35 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_4 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_5 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_6 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_7 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_8 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_9 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//timbre/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_1 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_10 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_11 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_12 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_13 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_14 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_15 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_16 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_17 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_18 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_19 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_2 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_20 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_21 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_22 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_23 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_24 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_25 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_26 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_27 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_28 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_29 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_3 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_30 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_31 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_32 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_33 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_34 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_35 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_4 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_5 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_6 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_7 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_8 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p104/watermark_config_pream_16bps/sample_9 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p104//audioseal/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_1 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_10 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_11 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_12 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_13 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_14 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_15 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_16 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_17 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_18 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_19 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_2 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_20 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_21 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_22 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_23 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_24 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_25 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_26 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_27 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_28 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_29 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_3 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_30 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_31 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_32 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_33 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_34 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_35 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_4 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_5 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_6 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_7 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_8 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_9 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//timbre/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_1 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_10 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_11 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_12 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_13 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_14 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_15 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_16 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_17 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_18 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_19 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_2 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_20 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_21 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_22 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_23 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_24 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_25 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_26 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_27 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_28 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_29 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_3 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_30 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_31 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_32 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_33 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_34 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_35 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_4 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_5 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_6 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_7 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_8 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p105/watermark_config_pream_16bps/sample_9 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p105//audioseal/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_1 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_10 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_11 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_12 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_13 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_14 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_15 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_16 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_17 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_18 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_19 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_2 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_20 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_21 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_22 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_23 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_24 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_25 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_26 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_27 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_28 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_29 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_3 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_30 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_31 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_32 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_33 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_34 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_35 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_4 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_5 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_6 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_7 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_8 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_9 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//timbre/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_1 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_10 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_11 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_12 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_13 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_14 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_15 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_16 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_17 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_18 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_19 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_2 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_20 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_21 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_22 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_23 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_24 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_25 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_26 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_27 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_28 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_29 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_3 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_30 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_31 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_32 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_33 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_34 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_35 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_4 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_5 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_6 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_7 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_8 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p106/watermark_config_pream_16bps/sample_9 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p106//audioseal/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_1 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_10 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_11 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_12 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_13 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_14 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_15 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_16 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_17 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_18 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_19 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_2 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_20 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_21 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_22 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_23 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_24 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_25 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_26 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_27 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_28 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_29 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_3 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_30 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_31 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_32 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_33 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_34 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_35 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_4 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_5 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_6 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_7 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_8 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_9 with model: timbre[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//timbre/sample_9
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_1 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_1
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_10 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_10
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_11 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_11
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_12 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_12
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_13 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_13
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_14 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_14
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_15 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_15
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_16 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_16
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_17 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_17
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_18 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_18
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_19 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_19
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_2 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_2
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_20 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_20
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_21 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_21
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_22 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_22
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_23 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_23
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_24 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_24
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_25 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_25
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_26 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_26
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_27 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_27
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_28 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_28
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_29 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_29
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_3 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_3
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_30 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_30
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_31 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_31
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_32 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_32
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_33 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_33
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_34 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_34
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_35 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_35
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_4 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_4
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_5 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_5
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_6 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_6
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_7 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_7
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_8 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_8
+[35mProcessing sample folder: /media/storage/hadleigh/stegaphone_data/final/p107/watermark_config_pream_16bps/sample_9 with model: audioseal[0m
+Output sample folder: /media/storage/hadleigh/stegaphone_data/final/p107//audioseal/sample_9

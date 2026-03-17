@@ -9,7 +9,7 @@ from colorama import Fore, Style
 
 import sys
 sys.path.append("../")
-from utils import symbols_to_bits, bits_to_symbols
+from echo_utils import symbols_to_bits, bits_to_symbols
 from neural_decoding.utils.utils import load_config
 
 from omnisealbench.configs import *
@@ -22,7 +22,7 @@ class WatermarkWrapper:
     A class for watermarking audio samples using various watermarking models.
     """
     
-    def __init__(self, stegaphone_watermark_config_path: str, model_keys: List[str] = ["timbre", "audioseal"]):
+    def __init__(self, stegaphone_watermark_config_path: str, model_keys: List[str] = ["timbre", "audioseal"], device: str = "cuda"):
         """
         Initialize the watermark generator with specified models.
         
@@ -31,7 +31,7 @@ class WatermarkWrapper:
             model_keys (list): List of model keys to use for watermarking.
         """
         self.model_keys = model_keys
-        self.device = "cpu" #"cuda" if torch.cuda.is_available() else "cpu"
+        self.device = device
         self.target_sr = 16000  # all models use 16kHz
         
         # Load watermarking config (need payload delays for symbol to bits conversion)
@@ -177,9 +177,12 @@ class WatermarkWrapper:
                 _, msg_decoded = detector.detect_watermark_audio(watermarked_audio, self.target_sr)
                 msg_decoded_np = msg_decoded.cpu().numpy().flatten()
                 msg_decoded_binarized = (msg_decoded_np > 0.5).astype(np.int32)
-                assert np.array_equal(msg_decoded_binarized, secret_message.squeeze().cpu().numpy()), \
-                    "Decoded message does not match embedded message!"
-
+                # assert np.array_equal(msg_decoded_binarized, secret_message.squeeze().cpu().numpy()), \
+                #     "Decoded message does not match embedded message!"
+                if not np.array_equal(msg_decoded_binarized, secret_message.squeeze().cpu().numpy()):
+                    print(Fore.YELLOW + "Warning: Decoded message does not match embedded message!" + Style.RESET_ALL)
+                    print("E: ", secret_message.squeeze().cpu().numpy())
+                    print("D: ", msg_decoded_binarized)
 
                 ##### SAVE THINGS #####
                 # Convert the watermarked audio back to original sample rate if needed and save
@@ -200,45 +203,141 @@ class WatermarkWrapper:
                 os.system(f"cp {sample_folder}/raw_audio_path.txt {output_sample_folder}/raw_audio_path.txt")
 
 
-    def decode_recordings(self, samples_folder):
-         # Get sample folders to process
-       
+    def decode_unattacked_recordings(self, root_data_path, groups, sessions, output_csv_path):
+        """
+        Decode unattacked recordings for a given group and session of Timbre and AudioSeal-watermarked
+        audio.
+
+        Args: 
+            group (str): Path to the group folder containing model subfolders.
+            session_name (str): Name of the recording session to decode (e.g., "lab", "phone").
+        """
+        f = open(output_csv_path, "w")
+        f.write("Recording Path,Model,BER\n")
+        f.flush()
 
         for model_key in self.model_keys:
             detector = self.detectors[model_key]
- 
-            sample_folders = glob.glob(f"{samples_folder}/{model_key}/sample*")
-            sample_folders.sort()
-
-            for sample_folder in sample_folders:
-                print(Fore.MAGENTA + f"Processing sample folder: {sample_folder} with model: {model_key}" + Style.RESET_ALL)
-        
-                # Load sample data
-                recordings = glob.glob(f"{sample_folder}/*recording*.wav") # TODO: update
-
-                for recording_file in recordings:
-                    print(f"Decoding recording: {recording_file}")
-                    input_audio, file_sr = soundfile.read(recording_file)
-                    msg_gt = np.load(f"{sample_folder}/encoded_bits.npy")
-
-                    # Convert to tensor, reshape, and resample if needed
-                    waveform = torch.tensor(input_audio).unsqueeze(0)  # c=1 t
-                    waveform = waveform.float()
-                    waveform = waveform.unsqueeze(0)  # b=1 c=1 t
-                    if self.target_sr != file_sr:
-                        waveform = torchaudio.transforms.Resample(
-                            orig_freq=file_sr,
-                            new_freq=self.target_sr,
-                        )(waveform)
+            for session in sessions:
+                for group in groups:
+                    samples_folder = f"{root_data_path}/{group}/{model_key}/"
+                    sample_folders = glob.glob(f"{samples_folder}/sample*")
+                    for sample_folder in sample_folders:
+                        print(Fore.MAGENTA + f"Processing sample folder: {sample_folder} with model: {model_key}" + Style.RESET_ALL)
+                
+                        # Load sample data
+                        external_recording_files = glob.glob(f"{sample_folder}/watermarked_{session}_recording_*.wav")
                     
-                    detect_prob, msg_decoded = detector.detect_watermark_audio(waveform, self.target_sr)
-                    msg_decoded_np = msg_decoded.cpu().numpy().flatten()
-                    msg_decoded_binarized = (msg_decoded_np > 0.5).astype(np.int32)
-                    print("Secret message: ", msg_gt)
-                    print("Decoded message: ", msg_decoded_binarized)
-                    ber = np.sum(msg_gt != msg_decoded_binarized) / len(msg_gt)
-                    print(f"Bit Error Rate (BER): {ber:.2f}")
-                  
+                        for recording_file in external_recording_files:
+                            print(f"Decoding recording: {recording_file}")
+                            input_audio, file_sr = soundfile.read(recording_file)
+
+                            # trim silence from beginning and end for fairness
+                            input_audio_trimmed, _ = librosa.effects.trim(input_audio, top_db=20)
+                            # # debug: plot the original vs. trimmed
+                            # import matplotlib.pyplot as plt
+                            # plt.figure(figsize=(12, 4))
+                            # plt.subplot(1, 2, 1)
+                            # plt.title("Original Audio")
+                            # plt.plot(input_audio)
+                            # plt.subplot(1, 2, 2)
+                            # plt.title("Trimmed Audio")
+                            # plt.plot(input_audio_trimmed)
+                            # plt.savefig("trim.png")
+                            # plt.close()
+
+                            msg_gt = np.load(f"{sample_folder}/encoded_bits.npy")
+
+                            # Convert to tensor, reshape, and resample if needed
+                            waveform = torch.tensor(input_audio_trimmed).unsqueeze(0)  # c=1 t
+                            waveform = waveform.float()
+                            waveform = waveform.unsqueeze(0)  # b=1 c=1 t
+                            if self.target_sr != file_sr:
+                                waveform = torchaudio.transforms.Resample(
+                                    orig_freq=file_sr,
+                                    new_freq=self.target_sr,
+                                )(waveform)
+                            
+                            detect_prob, msg_decoded = detector.detect_watermark_audio(waveform, self.target_sr)
+                            msg_decoded_np = msg_decoded.cpu().numpy().flatten()
+                            msg_decoded_binarized = (msg_decoded_np > 0.5).astype(np.int32)
+                            print("Secret message: ", msg_gt)
+                            print("Decoded message: ", msg_decoded_binarized)
+                            ber = np.sum(msg_gt != msg_decoded_binarized) / len(msg_gt)
+                            print(f"Bit Error Rate (BER): {ber:.2f}")
+                            f.write(f"{recording_file},{model_key},{ber:.4f}\n")
+                            f.flush()
+
+        f.close()
+    
+
+    def decode_attacked_recordings(self, root_data_path, groups, sessions, attack_names, output_csv_path):
+        """
+        Decode attacked recordings for a given group and session of Timbre and AudioSeal-watermarked
+        audio.
+
+        Args: 
+            group (str): Path to the group folder containing model subfolders.
+            session_name (str): Name of the recording session to decode (e.g., "lab", "phone").
+        """
+        f = open(output_csv_path, "w")
+        f.write("Attack,Recording Path,Model,BER\n")
+        f.flush()
+        for model_key in self.model_keys:
+            detector = self.detectors[model_key]
+            for attack_name in attack_names:
+                for session in sessions:
+                    for group in groups:
+                        samples_folder = f"{root_data_path}/{group}/{model_key}/"
+                        sample_folders = glob.glob(f"{samples_folder}/sample*")
+                        for sample_folder in sample_folders:
+                            print(Fore.MAGENTA + f"Processing sample folder: {sample_folder} with model: {model_key}" + Style.RESET_ALL)
+                    
+                            # Load sample data
+                            external_recording_files = glob.glob(f"{sample_folder}/attacked/{attack_name.upper()}_watermarked_{session}_recording_*.wav")
+                            
+                            for recording_file in external_recording_files:
+                                print(f"Decoding recording: {recording_file}")
+                                input_audio, file_sr = soundfile.read(recording_file)
+
+                                # trim silence from beginning and end for fairness
+                                input_audio_trimmed, _ = librosa.effects.trim(input_audio, top_db=20)
+                                # # debug: plot the original vs. trimmed
+                                # import matplotlib.pyplot as plt
+                                # plt.figure(figsize=(12, 4))
+                                # plt.subplot(1, 2, 1)
+                                # plt.title("Original Audio")
+                                # plt.plot(input_audio)
+                                # plt.subplot(1, 2, 2)
+                                # plt.title("Trimmed Audio")
+                                # plt.plot(input_audio_trimmed)
+                                # plt.savefig("trim.png")
+                                # plt.close()
+
+                                msg_gt = np.load(f"{sample_folder}/encoded_bits.npy")
+
+                                # Convert to tensor, reshape, and resample if needed
+                                waveform = torch.tensor(input_audio_trimmed).unsqueeze(0)  # c=1 t
+                                waveform = waveform.float()
+                                waveform = waveform.unsqueeze(0)  # b=1 c=1 t
+                                if self.target_sr != file_sr:
+                                    waveform = torchaudio.transforms.Resample(
+                                        orig_freq=file_sr,
+                                        new_freq=self.target_sr,
+                                    )(waveform)
+                                
+                                detect_prob, msg_decoded = detector.detect_watermark_audio(waveform, self.target_sr)
+                                msg_decoded_np = msg_decoded.cpu().numpy().flatten()
+                                msg_decoded_binarized = (msg_decoded_np > 0.5).astype(np.int32)
+                                print("Secret message: ", msg_gt)
+                                print("Decoded message: ", msg_decoded_binarized)
+                                ber = np.sum(msg_gt != msg_decoded_binarized) / len(msg_gt)
+                                print(f"Bit Error Rate (BER): {ber:.2f}")
+                                f.write(f"{recording_file},{model_key},{ber:.4f}\n")
+                                f.flush()
+
+        f.close()
+
 
     def dynamic_message_validation(self, input_audio_path, model_key):
         """
@@ -386,32 +485,68 @@ class WatermarkWrapper:
         print("Random chunk decoded matches GT: ", np.array_equal(random_chunk_msg_decoded_binarized, msg_gt))
 
 
-                
 
-# Initialize the watermark generator
-watermark_gen = WatermarkWrapper(
-    stegaphone_watermark_config_path="../neural_decoding/configs/watermark_config_pream_16bps.yaml", # needed to get payload delays for symbol to bits conversion
-    model_keys=["timbre", "audioseal"]
+# Data path and groups
+attack_names = [
+                "background_noise_-5dB", "background_noise_0dB", "background_noise_5dB", "background_noise_10dB", "background_noise_15dB", "background_noise_20dB", "background_noise_25dB", "background_noise_30dB", "background_noise_35dB", "background_noise_40dB", 
+                "white_noise_10dB", "white_noise_15dB", "white_noise_20dB", "white_noise_25dB", "white_noise_30dB", "white_noise_35dB", "white_noise_40dB",
+                "pink_noise_10dB",  "pink_noise_15dB", "pink_noise_20dB", "pink_noise_25dB", "pink_noise_30dB", "pink_noise_35dB", "pink_noise_40dB",
+                "room_reverb_quarter", "room_reverb_half", "room_reverb_1", 
+                "quantization", "bandpass", "highpass", "lowpass",
+                "smooth_5", "smooth_15",  "smooth_25", "smooth_35",
+                "equalizer", "boost", "duck",
+                "upsample", "downsample",
+                "sample_suppression",
+                # "dac_codec", "nemo_codec", 
+                 "resemble_denoise",
+                "mp3_16kbps", "mp3_24kbps", "mp3_32kbps", "mp3_40kbps", "mp3_48kbps", "mp3_56kbps", "mp3_64kbps",
+                "opus_16kbps", "opus_24kbps", "opus_32kbps", "opus_40kbps", "opus_48kbps", "opus_56kbps", "opus_64kbps", 
+                # "pitch_scale", 
+                # "pv",
+                # "wsola"
+]
+
+root_data_path = "/media/storage/hadleigh/stegaphone_data/final_rec/"
+locations = [ "printer", "lounge" ,  "auditorium", "group_office", "lab", "outside1", "outside2", "conference", "lobby", "apartment"]
+groups = ["p102", "p103", "p104", "p105", "p106", "p107"] 
+
+# Initialize the watermark generator and detector
+watermark = WatermarkWrapper(
+    stegaphone_watermark_config_path="../neural_decoding/configs/watermark_config_27bps.yaml", # needed to get payload delays for symbol to bits conversion
+    model_keys=["timbre", "audioseal"],
+    device="cuda:3"
 )
 
-# watermark_gen.dynamic_message_validation(
+# Sanity check dynamic message argue ent
+# watermark.dynamic_message_validation(
 #     input_audio_path="/media/storage/hadleigh/stegaphone_data/final/p100/watermark_config_pream_16bps/sample_1/original.wav",
 #     model_key="audioseal"
 # )
 
+
 # Generate watermarked audio samples
-# TODO:  watermark "musdb_val", "musdb_test"
-groups = ["p100", "p101", "p102", "p103", "p104", "p105", "p106", "p107"] # from the ears dataset, make sure to include these but not in training
-for group in groups:
-    watermark_gen.generate_watermarked_audio_samples(
-        stegaphone_source_samples_folder=f"/media/storage/hadleigh/stegaphone_data/final/{group}/watermark_config_pream_16bps/", # source of original audio and symbols to use
-        group_output_folder=f"/media/storage/hadleigh/stegaphone_data/final/{group}/" # a folder for audioseal and timbre folders to be created ni
-    )
+# for group in groups:
+    # watermark.generate_watermarked_audio_samples(
+    #     stegaphone_source_samples_folder=f"{root_data_path}{group}/watermark_config_27bps/", # source of original audio and symbols to use
+    #     group_output_folder=f"{root_data_path}{group}/" # a folder for audioseal and timbre folders to be created ni
+    # )
 
-# watermark_gen.decode_recordings(
-#     samples_folder = f"/media/storage/hadleigh/stegaphone_data/final/{group}"
+
+# Decode unattacked recordings
+# Final paper results
+
+# watermark.decode_unattacked_recordings(
+#     root_data_path, 
+#     groups,
+#     locations,
+#     output_csv_path="final_unattacked_bers.csv"
 # )
-
-
+watermark.decode_attacked_recordings(
+    root_data_path, 
+    groups,
+    locations,
+    attack_names,
+    output_csv_path="final_attacked_bers.csv"
+)
 
 

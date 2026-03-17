@@ -17,7 +17,7 @@ from audiomentations import Compose, Mp3Compression
 from .frequency import fixed_STFT
 from .mel_transform import STFT
 
-SAMPLE_RATE = 22050
+sample_rate = 22050
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
@@ -27,17 +27,17 @@ class distortion(nn.Module):
         process_config,
     ):
         super(distortion, self).__init__()
-        self.resample_kernel1 = julius.ResampleFrac(SAMPLE_RATE, 16000).to(device)
-        self.resample_kernel1_re = julius.ResampleFrac(16000, SAMPLE_RATE).to(device)
-        self.resample_kernel2 = julius.ResampleFrac(SAMPLE_RATE, 8000).to(device)
+        self.resample_kernel1 = julius.ResampleFrac(sample_rate, 16000).to(device)
+        self.resample_kernel1_re = julius.ResampleFrac(16000, sample_rate).to(device)
+        self.resample_kernel2 = julius.ResampleFrac(sample_rate, 8000).to(device)
         self.resample_kernel2_re = julius.ResampleFrac(
             8000,
-            SAMPLE_RATE,
+            sample_rate,
         ).to(device)
         self.augment = Compose([Mp3Compression(p=1.0, min_bitrate=64, max_bitrate=64)])
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-        self.band_lowpass = julius.LowPassFilter(2000 / SAMPLE_RATE).to(device)
-        self.band_highpass = julius.HighPassFilter(500 / SAMPLE_RATE).to(device)
+        self.band_lowpass = julius.LowPassFilter(2000 / sample_rate).to(device)
+        self.band_highpass = julius.HighPassFilter(500 / sample_rate).to(device)
         self.stft = fixed_STFT(
             process_config["mel"]["n_fft"],
             process_config["mel"]["hop_length"],
@@ -133,7 +133,7 @@ class distortion(nn.Module):
         f = []
         a = y.cpu().detach().numpy()
         for i in a:
-            f.append(torch.Tensor(self.augment(i, sample_rate=SAMPLE_RATE)))
+            f.append(torch.Tensor(self.augment(i, sample_rate=sample_rate)))
         f = torch.cat(f, dim=0).unsqueeze(1).to(self.device)
         # y = y + (f - y).detach()
         # return y
