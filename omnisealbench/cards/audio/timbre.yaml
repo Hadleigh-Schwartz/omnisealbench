@@ -11,11 +11,11 @@ name: "timbre"
 generator:
   builder_func: omnisealbench.models.audio.builders.build_timbre_generator
   # Currently using finetuned, uncomment below to use the base model.
-  checkpoint_pth: /home/hadleigh/acoustic_embedding/echo/TimbreWatermarking/watermarking_model/results/ckpt/pth/none-conv2_ep_5_2026-09-15_10_16_37.pth.tar
+  checkpoint_pth:  /home/hadleigh/acoustic_embedding/echo/neural_decoding/final_content/timbre_finetune/none-conv2_ep_5_2026-09-15_10_16_37.pth.tar
   # 'compressed_none-conv2_ep_20_2023-02-14_02_24_57.pth.tar' # model specific
 detector:
   builder_func: omnisealbench.models.audio.builders.build_timbre_detector
-  checkpoint_pth: /home/hadleigh/acoustic_embedding/echo/TimbreWatermarking/watermarking_model/results/ckpt/pth/none-conv2_ep_5_2026-09-15_10_16_37.pth.tar
+  checkpoint_pth: /home/hadleigh/acoustic_embedding/echo/neural_decoding/final_content/timbre_finetune/none-conv2_ep_5_2026-09-15_10_16_37.pth.tar
   #  'compressed_none-conv2_ep_20_2023-02-14_02_24_57.pth.tar' # model specific
 
 # nbits: Number of bits in the watermark message.
