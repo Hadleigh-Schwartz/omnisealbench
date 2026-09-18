@@ -213,7 +213,7 @@ class WatermarkWrapper:
             session_name (str): Name of the recording session to decode (e.g., "lab", "phone").
         """
         f = open(output_csv_path, "w")
-        f.write("Recording Path,Model,BER\n")
+        f.write("Session,Group,Recording Path,Model,BER\n")
         f.flush()
 
         for model_key in self.model_keys:
@@ -265,7 +265,7 @@ class WatermarkWrapper:
                             print("Decoded message: ", msg_decoded_binarized)
                             ber = np.sum(msg_gt != msg_decoded_binarized) / len(msg_gt)
                             print(f"Bit Error Rate (BER): {ber:.2f}")
-                            f.write(f"{recording_file},{model_key},{ber:.4f}\n")
+                            f.write(f"{session},{group},{recording_file},{model_key},{ber:.4f}\n")
                             f.flush()
 
         f.close()
@@ -281,7 +281,7 @@ class WatermarkWrapper:
             session_name (str): Name of the recording session to decode (e.g., "lab", "phone").
         """
         f = open(output_csv_path, "w")
-        f.write("Attack,Recording Path,Model,BER\n")
+        f.write("Attack,Location,Group,Recording Path,Model,BER\n")
         f.flush()
         for model_key in self.model_keys:
             detector = self.detectors[model_key]
@@ -333,7 +333,7 @@ class WatermarkWrapper:
                                 print("Decoded message: ", msg_decoded_binarized)
                                 ber = np.sum(msg_gt != msg_decoded_binarized) / len(msg_gt)
                                 print(f"Bit Error Rate (BER): {ber:.2f}")
-                                f.write(f"{recording_file},{model_key},{ber:.4f}\n")
+                                f.write(f"{attack_name},{session},{group},{recording_file},{model_key},{ber:.4f}\n")
                                 f.flush()
 
         f.close()
@@ -533,20 +533,19 @@ watermark = WatermarkWrapper(
 
 
 # Decode unattacked recordings
-# Final paper results
-
-# watermark.decode_unattacked_recordings(
-#     root_data_path, 
-#     groups,
-#     locations,
-#     output_csv_path="final_unattacked_bers.csv"
-# )
+# Final paper results:
+watermark.decode_unattacked_recordings(
+    root_data_path, 
+    groups,
+    locations,
+    output_csv_path="final_unattacked_bers_mar17.csv"
+)
 watermark.decode_attacked_recordings(
     root_data_path, 
     groups,
     locations,
     attack_names,
-    output_csv_path="final_attacked_bers.csv"
+    output_csv_path="final_attacked_bers_mar17.csv"
 )
 
 

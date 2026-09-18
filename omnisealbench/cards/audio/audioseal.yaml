@@ -10,10 +10,13 @@ name: "audioseal"
 # required
 generator:
   builder_func: omnisealbench.models.audio.builders.build_audioseal_generator
-  model_card_or_path: audioseal_wm_16bits # model specific
+  # Either a checkpoint or model card. Below is the finetuned ckpt.
+  model_card_or_path: /home/hadleigh/acoustic_embedding/echo/neural_decoding/final_content/audioseal_finetune/processed_xps/generator_base.pth
+        # audioseal_wm_16bits # model specific
 detector:
   builder_func: omnisealbench.models.audio.builders.build_audioseal_detector
-  model_card_or_path: audioseal_detector_16bits # model specific
+  model_card_or_path: /home/hadleigh/acoustic_embedding/echo/neural_decoding/final_content/audioseal_finetune/processed_xps/detector_base.pth
+          # audioseal_detector_16bits # model specific
 
 # nbits: Number of bits in the watermark message.
 nbits: 16 # required
